@@ -1,6 +1,13 @@
 body{
     background-color: black;
 }
+/*------------------------------Config Nav Geral-----------------*/
+.logo{ /*Configurando e editando a logo*/
+    width: 5%;
+    border-radius: 15%;
+    margin-left: 3%;
+}
+
 .navbar{
     background-color: none;
 }
@@ -17,13 +24,20 @@ body{
 .navbar-nav .nav-item {
     padding: 0 15px; /* Espaçamento de 15px à esquerda e à direita de cada item */
   }
-.logo{
-    width: 5%;
-    border-radius: 15%;
-    margin-left: 3%;
+
+.navbar-toggler-icon { /*Deixando as barras do menu brancas com um svg*/
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="white"><path stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-a:link, a:visited { 
+.navbar-toggler{ /* borda do menu branca ao mudar para mobile*/
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255)
+}
+
+
+a:link, a:visited {
 	background-color: #000000ad;
 	color: rgb(255, 255, 255);
 	border: 2px solid rgb(255, 255, 255);
@@ -37,4 +51,13 @@ a:link, a:visited {
 a:hover, a:active {
 	background-color: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
+}
+/*------------------------------Config Nav Geral-----------------*/
+.videosite{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+.t1{
+    background-color: green;
 }
