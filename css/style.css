@@ -53,6 +53,9 @@ a:hover, a:active {
 	color: rgb(0, 0, 0);
 }
 /*------------------------------Config Nav Geral-----------------*/
+main{
+    margin: 3%;
+}
 .videosite{
     width: 30%;
     float: left;
