@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: grey;
+}
+.nav-link{
+    color: aliceblue;
+}
+.container-fluid{ /*nav menu parte de fora do nav*/
+    margin: auto;
+    padding: 0.5%;
+}
+.collapse{
+    padding: 1%;
+}
+.navbar-nav .nav-item {
+    padding: 0 15px; /* Espaçamento de 15px à esquerda e à direita de cada item */
+  }
+.logo{
+    width: 5%;
+    border-radius: 15%;
+    margin-left: 3%;
+}
