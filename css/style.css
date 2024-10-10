@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 .navbar{
-    background-color: grey;
+    background-color: none;
 }
 .nav-link{
     color: aliceblue;
@@ -21,4 +21,20 @@ body{
     width: 5%;
     border-radius: 15%;
     margin-left: 3%;
+}
+
+a:link, a:visited { 
+	background-color: #000000ad;
+	color: rgb(255, 255, 255);
+	border: 2px solid rgb(255, 255, 255);
+	padding: 10px 20px;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+    border-radius: 10px;
+  }   
+
+a:hover, a:active {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
