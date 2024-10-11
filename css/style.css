@@ -42,15 +42,15 @@ main {
     background-repeat: no-repeat;
 }
 
-.navbar-toggler{ /* borda do menu branca ao mudar para mobile*/
+.navbar-toggler { /* Borda do menu branca ao mudar para mobile */
     border: 2px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255); /* Texto branco */
 }
 
 a:link, a:visited {
-    background-color: #000000ad;
+    background-color: #000000ad; /* Fundo semi-transparente */
     color: rgb(255, 255, 255) !important; /* Texto branco */
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255); /* Borda branca */
     padding: 10px 20px;
     text-align: right;
     text-decoration: none;
@@ -68,8 +68,15 @@ a:active, a:focus, a:visited:active, a:visited:focus {
     background-color: #ffffff; /* Fundo branco quando selecionado */
     color: #000000 !important; /* Texto preto quando selecionado */
     border-color: #000000; /* Borda preta para contraste */
-    outline: none;
 }
+
+/* Adicionando uma classe para botões ativos */
+.nav-link.active, .nav-link:focus {
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000 !important; /* Texto preto */
+    border-color: #000000; /* Borda preta */
+}
+
 /*------------------------------Config Nav Geral-----------------*/
 
 
