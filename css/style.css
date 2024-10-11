@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(12, 0, 104);
 }
 /*------------------------------Config Nav Geral-----------------*/
 .logo{ /*Configurando e editando a logo*/
@@ -36,22 +36,30 @@ body{
     color: rgb(255, 255, 255)
 }
 
-
 a:link, a:visited {
-	background-color: #000000ad;
-	color: rgb(255, 255, 255);
-	border: 2px solid rgb(255, 255, 255);
-	padding: 10px 20px;
-	text-align: right;
-	text-decoration: none;
-	display: inline-block;
-    border-radius: 10px;
-  }   
-
-a:hover, a:active {
-	background-color: rgb(255, 255, 255);
-	color: rgb(0, 0, 0);
+    background-color: #000000ad;
+    color: rgb(255, 255, 255) !important; /* Garantindo que o texto seja sempre branco */
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+a:hover {
+    background-color: rgb(255, 255, 255); /* Fundo branco no hover */
+    color: #000000 !important;  /* Texto preto no hover */
+}
+
+a:active, a:focus, a:visited:active, a:visited:focus {
+    background-color: #000000ad; /* Fundo semi-transparente após o clique */
+    color: rgb(255, 255, 255) !important; /* Mantém o texto branco após o clique */
+    outline: none;
+}
+
+
 /*------------------------------Config Nav Geral-----------------*/
 main{
     margin: 3%;
@@ -60,7 +68,4 @@ main{
     width: 30%;
     float: left;
     margin-left: 50px;
-}
-.t1{
-    background-color: green;
 }
