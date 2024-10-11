@@ -38,24 +38,25 @@ body{
 
 a:link, a:visited {
     background-color: #000000ad;
-    color: rgb(255, 255, 255) !important; /* Garantindo que o texto seja sempre branco */
+    color: rgb(255, 255, 255) !important; /* Texto branco */
     border: 2px solid rgb(255, 255, 255);
     padding: 10px 20px;
     text-align: right;
     text-decoration: none;
     display: inline-block;
     border-radius: 15px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-a:hover {
+a:hover, a:focus:hover, a:visited:hover {
     background-color: rgb(255, 255, 255); /* Fundo branco no hover */
     color: #000000 !important;  /* Texto preto no hover */
 }
 
 a:active, a:focus, a:visited:active, a:visited:focus {
-    background-color: #000000ad; /* Fundo semi-transparente após o clique */
-    color: rgb(255, 255, 255) !important; /* Mantém o texto branco após o clique */
+    background-color: #ffffff; /* Fundo branco quando selecionado */
+    color: #000000 !important; /* Texto preto quando selecionado */
+    border-color: #000000; /* Borda preta para contraste */
     outline: none;
 }
 
