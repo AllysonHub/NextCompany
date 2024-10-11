@@ -1,6 +1,16 @@
 body{
     background-color: rgb(12, 0, 104);
 }
+header{
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+main {
+    margin: 3%;
+    background-color: rgb(255, 0, 0);    
+}
+
 /*------------------------------Config Nav Geral-----------------*/
 .logo{ /*Configurando e editando a logo*/
     width: 5%;
@@ -9,7 +19,7 @@ body{
 }
 
 .navbar{
-    background-color: none;
+    background-color: transparent;
 }
 .nav-link{
     color: aliceblue;
@@ -20,6 +30,7 @@ body{
 }
 .collapse{
     padding: 1%;
+    align-items: center;
 }
 .navbar-nav .nav-item {
     padding: 0 15px; /* Espaçamento de 15px à esquerda e à direita de cada item */
@@ -59,14 +70,38 @@ a:active, a:focus, a:visited:active, a:visited:focus {
     border-color: #000000; /* Borda preta para contraste */
     outline: none;
 }
-
-
 /*------------------------------Config Nav Geral-----------------*/
-main{
-    margin: 3%;
+
+
+
+/*-------------------------------config main-----------------------*/
+
+
+/*-------------------------------config main-----------------------*/
+
+
+
+
+
+/*----------------------------Config Footer-----------------------*/
+footer{
+    background-color: transparent;
+    text-align: center;
 }
-.videosite{
-    width: 30%;
-    float: left;
-    margin-left: 50px;
+/* Removendo a formatação do link no footer */
+#Instalink {
+    background-color: transparent; /* Remove o fundo */
+    color: rgb(255, 255, 255) !important; /* Cor do texto - branca ou a cor que você quiser */
+    border: 1px white; /* Remove a borda */
+    padding: 0; /* Remove o padding */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline; /* Mantém o link como elemento em linha */
+    text-align: center;
+    transition: color 0.4s ease; /* Efeito suave para a mudança de cor, se você adicionar hover */
 }
+
+/* Efeito hover*/
+#Instalink:hover {
+    color: rgb(0, 200, 255) !important; /* Muda a cor do texto quando o mouse passa sobre o link */
+}
+/*----------------------------Config Footer-----------------------*/
