@@ -11,7 +11,7 @@ main {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgb(255, 0, 0);    
+    background-color: rgb(0, 116, 248);    
 }
 
 /*------------------------------Config Nav Geral-----------------*/
@@ -50,6 +50,7 @@ main {
     color: rgb(255, 255, 255); /* Texto branco */
 }
 
+/* Estilos padrão para os links */
 a:link, a:visited {
     background-color: #000000ad; /* Fundo semi-transparente */
     color: rgb(255, 255, 255) !important; /* Texto branco */
@@ -58,25 +59,20 @@ a:link, a:visited {
     text-align: right;
     text-decoration: none;
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-a:hover, a:focus:hover, a:visited:hover {
+/* Efeito hover */
+a:hover, a:focus:hover {
     background-color: rgb(255, 255, 255); /* Fundo branco no hover */
-    color: #000000 !important;  /* Texto preto no hover */
+    color: #000000 !important; /* Texto preto no hover */
 }
 
-a:active, a:focus, a:visited:active, a:visited:focus {
-    background-color: #ffffff; /* Fundo branco quando selecionado */
+/* Estilo para links ativos */
+.nav-link.active {
+    background-color: #ffffff !important; /* Fundo branco quando selecionado */
     color: #000000 !important; /* Texto preto quando selecionado */
-    border-color: #000000; /* Borda preta para contraste */
-}
-
-/* Adicionando uma classe para botões ativos */
-.nav-link.active, .nav-link:focus {
-    background-color: #ffffff; /* Fundo branco */
-    color: #000000 !important; /* Texto preto */
     border-color: #000000; /* Borda preta */
 }
 
