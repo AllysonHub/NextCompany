@@ -16,8 +16,18 @@ main {
 }
 
 .videonxt{
-    width: 50%;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
+@media (max-width: 768px){
+    .videonxt{
+        max-width: 100%; /* O vídeo ocupará 100% da largura em telas menores */
+    }
+}
+
 
 /*------------------------------Config Logo-----------------*/
 .logo{ /*Configurando e editando a logo*/
