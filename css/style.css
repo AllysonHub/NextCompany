@@ -120,11 +120,13 @@ a:hover, a:focus:hover {
 
 
 
-
 /*----------------------------Config Footer-----------------------*/
 footer{
     background-color: transparent;
     text-align: center;
+}
+.rodape{
+    margin-top: 2px solyd white;
 }
 /* Removendo a formatação do link no footer */
 #Instalink {
@@ -168,6 +170,8 @@ footer{
     margin-bottom: 20px;
 }
 .form-group {
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 15px;
 }
 .form-group label {
