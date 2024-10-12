@@ -12,7 +12,8 @@ main {
     margin-left: 18%;
     margin-right: 18%;
     padding: 1%;
-    background-color: transparent;    
+    background-color: transparent;
+    border-bottom: 2px solid white;  
 }
 
 .videonxt{
@@ -127,6 +128,8 @@ footer{
 }
 .rodape{
     margin-top: 2px solyd white;
+    display: inline-block;
+    align-items: center;
 }
 /* Removendo a formatação do link no footer */
 #Instalink {
@@ -156,6 +159,7 @@ footer{
 .topotext{
     border-bottom: 2px solid white;
 }
+
 .form-container {
     width: 90%;
     max-width: 400px;
@@ -170,11 +174,12 @@ footer{
     margin-bottom: 20px;
 }
 .form-group {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 19%;
+    margin-right: 19%;
     margin-bottom: 15px;
 }
 .form-group label {
+    padding: 1%;
     color: white;
     display: block;
     margin-bottom: 5px;
@@ -191,6 +196,7 @@ footer{
 .form-group input[type="submit"] {
     background-color: #0a0a0a;
     color: white;
+    padding: 5%;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
