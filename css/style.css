@@ -11,7 +11,7 @@ main {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgb(0, 116, 248);    
+    background-color: transparent;    
 }
 
 /*------------------------------Config Nav Geral-----------------*/
@@ -111,3 +111,76 @@ footer{
     color: rgb(0, 200, 255) !important; /* Muda a cor do texto quando o mouse passa sobre o link */
 }
 /*----------------------------Config Footer-----------------------*/
+
+/*----------------------------Config forms-----------------------*/
+.titulo{
+    color: white;
+}
+.paragrafo{
+    color: white;
+}
+.form-container {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-group input[type="submit"] {
+    background-color: #0a0a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #0062ff;
+}
+
+@media (max-width: 600px){
+    .form-container {
+        padding: 15px;
+    }
+    .form-group input{
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    .form-group label{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 400px ){
+    .form-container{
+        width: 100%;
+        padding: 10px;
+    }
+    .form-group input{
+        font-size: 0.85rem;
+        padding: 6px;
+    }
+    .form-group label{
+        font-size: 0.85rem;
+    }
+}
